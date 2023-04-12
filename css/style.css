@@ -1,0 +1,173 @@
+
+.nav-link{
+    color: black;
+    font-weight: 600;
+}
+
+.hero{
+    margin: 0 auto;
+    background-image: url('../img/123.webp');
+    height: 450px;
+    background-size: cover;
+}
+
+.content{
+    padding-top: 50px;
+    padding-left: 200px;
+    width: 750px;
+}
+
+btn{
+    border-radius: 25px;
+}
+.ab{
+  width: 255px;
+  margin-top: 0; 
+  margin-left: 0;
+  background-color: rgb(232, 113, 0); 
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  padding-left: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ab:hover{
+    color: white;
+}
+
+.side-hero1{
+    background-image: url('../img/45.jpg');
+    height: 550px;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.side-hero-content{
+    padding: 100px;
+    padding-top: 180px;
+}
+
+.side-hero2{
+    background-image: url('../img/46.jpg');
+    height: 550px;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.link:hover{
+    
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+.search-container{
+    display: flex;
+}
+.search{
+   
+    padding: 9px;
+    width: 518px;
+    border: 1px solid rgb(242, 199, 27);
+    border-radius: 3px;
+}
+.search:focus{
+    outline: none;
+    padding: 11px;
+    border: 2px solid rgb(235, 113, 0);
+
+}
+.btn-search{
+    margin-left: -110px;
+    margin-bottom: 3px;
+}
+.m{
+    margin-top: 63px;
+    margin-bottom: 10px;
+    
+}
+.list{
+    list-style: none;
+    
+}
+
+@media(max-width:586px){
+    .hero-lg{
+        display: none;
+    }
+
+    .hero-mobile{
+        display: block;
+    }
+    
+    .search-lg{
+        display: none;
+    }
+    .search-mobile{
+        display: block;
+    }
+    .bottom-lg{
+        display: none;
+    }
+    .bottom-mobile{
+        display: block;
+    }
+    .sec{
+        margin-left: -40px;
+    }
+    .footer-lg{
+        display: none;
+    }
+    .footer-mobile{
+        display: block;
+    }
+    .accordion-body{
+        background-color: rgb(238, 238, 241);
+    }
+   
+
+}
+
+
+
+
+@media(min-width:586px){
+    .hero-lg{
+        display: block;
+    }
+    .hero-mobile{
+        display: none;
+    }
+
+    .search-lg{
+        display: block;
+    }
+    .search-mobile{
+        display: none;
+    }
+    .bottom-lg{
+        display: block;
+    }
+    .bottom-mobile{
+        display: none;
+    }
+    .sec{
+        margin-left: 90px;
+    }
+    .footer-mobile{
+        display: none;
+    }
+   
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inconsolata:wght@200;300;400;500;600;700&family=Mr+Dafoe&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+$font-family-sans-serif:'Poppins', sans-serif;
+$theme-colors: (
+  "primary":    rgb(232, 113, 0),
+  "secondary":  green,
+  "success":    dodgerblue,
+  "warning":    tomato,
+  "danger":     rgb(232, 113, 0),
+  "light":      white,
+  "dark":       rgb(211, 205, 205),
+);
+$navbar-light-hover-color:black;
+$progress-border-radius:5px;
+$progress-height:8px;
+$accordion-border-width:1px;
+$accordion-border-color:rgb(211,205,205);
+$accordion-icon-width:20px;
+$accordion-icon-color:rgb(0, 0, 0);
+$accordion-color:black;                   
+$accordion-bg:white;
+
+
+ 
+@import'../node_modules/bootstrap/scss/bootstrap.scss';
+
+.nav-link:hover{
+  border-bottom: 5px solid rgb(232, 113, 0); 
+}
+.vr{
+  color: rgb(157, 153, 153);
+}
+
+.ab1{
+  margin: 10px;
+  color: #100e0e;
+  
+  
+  
+}
